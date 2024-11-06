@@ -17,3 +17,14 @@ but you need to go beyond that.
 ## Runtime Analysis
 
 What is the worst-case big $\Theta$ time complexity of your algorithm?
+
+
+## Analysis
+
+Our most intensive operations is one for loop. 
+
+The for loop is calculating the factorial values up to $n$ and storing them in a list, and also calculating the sum up to $n$ using those factorial numbers.
+
+The worst case time complexity of this implementation is $\Theta(n) ∈ \Theta(n)$
+
+“I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.”
