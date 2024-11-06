@@ -17,3 +17,14 @@ but you need to go beyond that.
 ## Runtime Analysis
 
 What is the worst-case big $\Theta$ time complexity of your algorithm?
+
+
+## Analysis
+
+Our two most intensive operations are two for loops. 
+
+The first loop is calculating the factorial values up to $n$ and storing them in a list. 
+
+The second loop is calculating the sum of values of $n$ elements, using the previously calculated factorials. 
+
+The worst case time complexity of this implementation is $\Theta(n + n) = \Theta(2n) ∈ \Theta(n)$
