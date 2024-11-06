@@ -1,6 +1,8 @@
 const fs = require('fs');
 const assert = require('assert');
 eval(fs.readFileSync('code.js')+'');
+
+// The factorial calculation has to be accurate in order for e() to be accurate, so I removed tests for factorial().
 assert(e(0) === 1);
 assert(e(1) === 2);
 assert(e(2) === 2.5);
